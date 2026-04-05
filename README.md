@@ -1,82 +1,150 @@
-🧪 Mini Project — To-do App Automation (Playwright)
-🔗 Demo Application
+# 🧪 Mini Project — To-do App Automation (Playwright)
 
-https://todomvc.com/examples/react/dist/
+## 🔗 Demo Application
 
-📌 Scenario
+👉 [https://todomvc.com/examples/react/dist/](https://todomvc.com/examples/react/dist/)
+
+---
+
+## 📌 Scenario
 
 Automate core To-do application functionalities:
 
-Add new tasks
-Mark tasks as completed
-Delete tasks
-📊 Project Goals (Measurable)
-Install Playwright and create test setup
-Automate:
-Add 3 todos
-Mark 1 todo as completed
-Delete a todo
-Generate Playwright HTML report and open it
-Add assertions and validate failures in report
-Capture screenshots and video on failure and attach to report
-Execute tests using interactive UI mode
-Run tests in debug mode
-Execute tests with trace enabled
-⚙️ Implementation Details
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* ❌ Delete tasks
+
+---
+
+## 📊 Project Goals (Measurable)
+
+* Install Playwright and create test setup
+* Add 3 todos
+* Mark 1 todo as completed
+* Delete a todo
+* Generate HTML report
+* Validate assertions and failures
+* Capture screenshots & videos on failure
+* Run tests in:
+
+  * UI mode
+  * Debug mode
+  * Trace mode
+
+---
+
+## ⚙️ Implementation Details
 
 This project includes:
 
-End-to-end UI test automation using Playwright
-Validation of core user flows
-Failure handling with screenshots and video capture
-HTML reporting for test execution insights
-🎯 Learning Outcomes
+* End-to-end UI automation using Playwright
+* Validation of core user flows
+* Screenshot & video capture on failure
+* HTML reporting
 
-This project demonstrates:
+---
 
-Test setup and configuration
-Locator strategies (best practices)
-Assertions and validations
-UI interactions
-Debugging and tracing
-Test reporting and analysis
-🛠️ Tools & Technologies
-Node.js
-Playwright (latest version)
-VS Code
-📁 Project Structure
-tests/
-  └── todo.spec.js
-playwright.config.js
-package.json
-🚀 How to Run the Project
-1. Install dependencies
+## 🎯 Learning Outcomes
+
+* Test setup and configuration
+* Locator strategies (best practices)
+* Assertions and validations
+* UI interactions
+* Debugging and tracing
+* Test reporting
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Node.js
+* Playwright
+* VS Code
+
+---
+
+## 📁 Project Structure
+
+```
+📦 project-root
+ ┣ 📂 tests
+ ┃ ┗ 📜 todo.spec.js
+ ┣ 📜 playwright.config.js
+ ┣ 📜 package.json
+```
+
+---
+
+## 🚀 How to Run the Project
+
+### Install dependencies
+
+```bash
 npm install
-2. Run tests (headless)
+```
+
+### Run tests (headless)
+
+```bash
 npx playwright test
-3. Run tests (headed)
+```
+
+### Run tests (headed)
+
+```bash
 npx playwright test --headed
-4. Run in UI mode
+```
+
+### Run UI mode
+
+```bash
 npx playwright test --ui
-5. Run in debug mode
+```
+
+### Debug mode
+
+```bash
 npx playwright test --debug
-6. Run with trace enabled
+```
+
+### Run with trace
+
+```bash
 npx playwright test --trace on
-7. View HTML report
+```
+
+### View report
+
+```bash
 npx playwright show-report
-📸 Reporting & Artifacts
-HTML report generated after test execution
-Screenshots captured on failure
-Video recording of test execution
-Trace files for debugging
-✅ Test Coverage
-Feature	Status
-Add Todo	✅
-Complete Todo	✅
-Delete Todo	✅
-Assertions	✅
-Reporting	✅
-⚠️ Notes
-Ensure Node.js is installed before running tests
-Use latest Playwright version for best results
-Do not commit unnecessary files (node_modules, reports, etc.)
+```
+
+---
+
+## 📸 Reporting
+
+* HTML report generated after execution
+* Screenshots on failure
+* Video recordings
+* Trace files for debugging
+
+---
+
+## ✅ Test Coverage
+
+| Feature       | Status |
+| ------------- | ------ |
+| Add Todo      | ✅      |
+| Complete Todo | ✅      |
+| Delete Todo   | ✅      |
+| Assertions    | ✅      |
+| Reporting     | ✅      |
+
+---
+
+
+## 🧠 Key Takeaway
+
+This project demonstrates practical QA automation skills including execution, validation, debugging, and reporting using Playwright.
+
+
